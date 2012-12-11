@@ -32,7 +32,7 @@
 		<p>Antoine Duparay - antoine.duparay@mozfr.org</p>
 	</header>
 	
-	<div class="slide" id="Cover"><div>
+	<div class="slide cover" id="Cover"><div>
 		<section>
 			<header>
 				<h2>Introduction aux Open Web Apps</h2>
