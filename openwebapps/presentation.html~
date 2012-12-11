@@ -32,13 +32,13 @@
 		<p>Antoine Duparay - antoine.duparay@mozfr.org</p>
 	</header>
 	
-	<div class="slide cover" id="Cover"><div>
+	<div class="slide" id="Cover"><div>
 		<section>
 			<header>
 				<h2>Introduction aux Open Web Apps</h2>
 			</header>
-			<img src="pictures/cover.png" alt="">
-			<footer class="byline">Antoine Duparay - Human Talks 2012 - Grenoble / France</footer>
+			<p style="text-align: center;"><img src="pictures/html5-2.png" alt=""></p>
+			<footer class="byline">Antoine Duparay - Human Talks 2012 - Grenoble</footer>
 		</section>
 	</div></div>
 	
@@ -208,7 +208,7 @@
 				<h2>Comment ça marche ?<br />Exemple sur Android</h2>
 			</header>
 			<ul class="floatright" style="font-size:medium; list-style-type:none;">
-				<li >Permissions entre la WebApp et Firefox</li>
+				<li>Permissions entre la WebApp et Firefox</li>
 				<li>Demandées à chaque fois / se souvenir</li>
 				<li>Permissions entre Firefox et Android</li>
 				<li>Demandées à l'installation, toutes ou aucune</li>
@@ -253,7 +253,7 @@
 					<td>Kernel Linux Minimal [C]</td>
 				</tr>
 			</table>
-			<p><a href="http://www.mozilla.org/en-US/firefoxos/" target="_blank">Tell me more !</a></p>
+			<p><a href="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox_OS" target="_blank">Tell me more !</a></p>
 		</section>
 		<footer class="notes">
 		</footer>
