@@ -1,7 +1,7 @@
 Presentation for Mozilla
 =====================
 
-Repertoire contenant mes conférences pour Mozilla en HTML5.  
+Répertoire contenant mes conférences pour Mozilla en HTML5.  
 Toutes les présentations sont sous licence CC-BY-SA 3.0
 
 
@@ -11,7 +11,7 @@ Dossier web-et-vie-privée : Présentation donnée le 18/11/12 à Lyon pour les 
 -------------------------
 
 Repository with my conferences for Mozilla in HTML5  
-Every présentations are under CC-BY-SA 3.0 licence
+Every presentations are under CC-BY-SA 3.0 licence
 
 HTML5 Template directory : the template that you can use to make presentation, under MIT licence  
-web-et-vie-privée : Presentation did the 11/18/12 at Lyon for the JDLL
+web-et-vie-privée : Presentation done the 11/18/12 at Lyon for the JDLL
