@@ -39,7 +39,7 @@ BODY {
 
 /* Header */
 .slide header {
-	margin:0 0 58px;
+	margin:0 0 42px;
 	color:rgb(62,62,62);
 	text-transform: uppercase;
 	font:lighter 40px/1.13 'OpenSansLight', sans-serif;
@@ -111,7 +111,7 @@ BODY {
 	.slide ol ul,
 	.slide ol ol,
 	.slide ul ol {
-		margin:0 0 0 38px;
+		margin:0 0 0 40px;
 		}
 	.slide ol > li:before,
 	.slide ul > li:before {

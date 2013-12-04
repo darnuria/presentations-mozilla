@@ -79,7 +79,12 @@
 
 	function updateProgress(slideNumber) {
 		if (null === progress) { return; }
-		progress.style.width = (100 / (slideList.length - 1) * normalizeSlideNumber(slideNumber)).toFixed(2) + '%';
+		if (getCurrentSlideNumber() == 0) {
+		  progress.parentNode.style.display = 'none';
+		} else {
+		  progress.parentNode.style.display = 'block';
+		  progress.style.width = (100 / (slideList.length - 1) * normalizeSlideNumber(slideNumber)).toFixed(2) + '%';
+		}
 	}
 
 	function getSlideHash(slideNumber) {

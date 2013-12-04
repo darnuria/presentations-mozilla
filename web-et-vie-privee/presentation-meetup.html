@@ -1,0 +1,361 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<title>Navigation sur le Web et vie privée - Antoine Duparay</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1274, user-scalable=no">
+	<link rel="stylesheet" href="themes/mozilla/styles/style.css">
+	<!--
+		To apply styles to the certain slides
+		use slide ID to get needed elements
+		-->
+	<style>
+		#Cover h2 {
+			color:#FFF;
+			text-align:center;
+			font-size:38px;
+			}
+		#FitToWidth h2,
+		#FitToHeight h2 {
+			color:#fff;
+			text-align:center;
+			}
+	</style>
+</head>
+<body class="list">
+	<header class="caption">
+		<h1>Navigation sur le Web et vie privée</h1>
+		<p>Antoine Duparay - antoine.duparay@mozfr.org</p>
+	</header>
+	
+	<div class="slide cover" id="Cover"><div>
+		<section>
+			<header>
+				<h2>Navigation sur le Web et vie privée</h2>
+			</header>
+			<img src="pictures/cover.png" alt="">
+			<footer class="byline">Antoine Duparay - Meetup Francophone 2013</footer>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="yoda"><div>
+		<section>
+			<header>
+				<h2>Web is powerful &lt;3</h2>
+			</header>
+			<p style="float:right;margin-left: 12px;"><img src="pictures/yoda-logo.png" /></p>
+			<p>Partager instantanément tout type d'informations dans le monde entier</p>
+			<p><em>Use the Web, Luke.</em></p>
+			<p>Mais attention au côté obscure !</p>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="big browser"><div>
+		<section>
+			<header>
+				<h2>Big browser is watching you</h2>
+			</header>
+			<p>
+				<img style="float:right;margin-right:-80px;" src="pictures/PRISM-2.jpg" />
+				<img style="margin-left:-80px;" src="pictures/PRISM-1.jpg" />
+			</p>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="probleme-vie-privee"><div>
+		<section>
+			<header>
+				<h2>Je n'ai rien à cacher !</h2>
+			</header>
+			<div>Peut-être, mais...</div>
+			<ul>
+				<li>Publicité ciblée / incitation à l'achat</li>
+				<li>Contrats (assurance, banque...)</li>
+				<li>Relation professionelle</li>
+				<li>Et l'État ?</li>
+			</ul>
+			<p><em>«Donnez moi dix lignes du plus honnête homme et j'y trouverai de quoi le faire pendre»</em></p>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="confiance"><div>
+		<section>
+			<header>
+				<h2>Choisir ses applications / services</h2>
+			</header>
+			<p>Choix selon :</p>
+			<ul>
+				<li>Entreprise / Non lucratif</li>
+				<li>Temps disponible</li>
+				<li>Niveau technique</li>
+				<li>Moyens</li>
+				<li>Emplacement géographique</li>
+			</ul>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="confiance2"><div>
+		<section>
+			<header>
+				<h2>Garder le contrôle des données</h2>
+			</header>
+			<p>D'abord, utilisez des Logiciels Libres !</p>
+			<ul>
+				<li>Auto hébergement</li>
+				<li>Hébergement chez un tiers</li>
+				<li>Par une association</li>
+				<li>Par une entreprise</li>
+			</ul>
+			<div>Tout est une question de <strong>confiance</strong></div>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="collusion"><div>
+		<section>
+			<header>
+				<h2>Observation du phénomène : l'extension Collusion</h2>
+			</header>
+			<img src="pictures/nodes.png" alt="" style="float: right; margin-top: -60px;" />
+			<ul>
+				<li>Une extension expérimentale</li>
+				<li>By Mozilla Labs</li>
+				<li>Visualisation en temps réel des trackeurs</li>
+			</ul>
+		</section>
+		<footer class="notes">
+			Démo !
+		</footer>
+	</div></div>
+	
+	<div class="slide shout" id="comment-cest-possible"><div>
+		<section>
+			<header>
+				<h2>Comment<br />c'est possible ?</h2>
+			</header>
+		</section>
+		<footer class="notes">
+		</footer>
+	</div></div>
+	
+	<div class="slide" id="cookie"><div>
+		<section>
+			<header>
+				<h2>Les cookies</h2>
+			</header>
+			<img src="pictures/cookie.png" alt="" class="floatright" />
+			<ul>
+				<li>Fichier texte stocké dans le navigateur</li>
+				<li>Renvoyé au serveur à chaque connexion sur le site</li>
+				<li>Contient souvent un identifiant unique (et souvent en clair !)</li>
+				<li>Garde des infos entre chaque visite (connexion, panier...)</li>
+				<li>Un cookie d'un site <strong>n'est pas accessible</strong> par les autres sites</li>
+			</ul>
+		</section>
+		<footer class="notes">
+			vol des sessions facebook
+		</footer>
+	</div></div>
+	
+	<div class="slide" id="iframe"><div>
+		<section>
+			<header>
+				<h2>Les cookies tierce partie</h2>
+			</header>
+			<img src="pictures/like.png" alt="" class="floatright" />
+			<ul>
+				<li>Site inclus dans d'autres sites</li>
+				<li>Pixel espion / Panneau publicitaire / Widget social...</li>
+				<li>Sous forme de script ou iFrame</li>
+				<li>Permet de suivre la navigation <strong>dans plusieurs sites différents</strong></li>
+			</ul>
+		</section>
+		<footer class="notes">
+		</footer>
+	</div></div>
+	
+	<div class="slide" id="en-face"><div>
+		<section>
+			<header>
+				<h2>Que faire face à ça ?</h2>
+			</header>
+			<p>Différentes caractistiques des solutions</p>
+			<ul>
+				<li>Automatiques Vs Manuelles</li>
+				<li>Selon le niveau technique</li>
+				<li>Mais on a rien sans bonne volonté</li>
+			</ul>
+		</section>
+		<footer class="notes">
+			Les gens n'aiment pas devoir faire attention. Comme pour leur ordinateur, ils ont envie qu'on leur dise
+			"tu as un antivirus, maintenant tu n'auras plus jamais aucun problème."
+			
+			Ici : le but est de présenter des solutions qui ne demandent aucun niveau technique et automatique
+			
+			Bonne volonté : facebook et les cambriolages
+		</footer>
+	</div></div>
+	
+	<div class="slide" id="firefox"><div>
+		<section>
+			<header>
+				<h2>Réglages Firefox</h2>
+			</header>
+			<ul>
+				<li>Désactiver les cookies tiers</li>
+				<li>Do not track <code>DNT: 1</code></li>
+				<li>Vider son historique régulièrement</li>
+			</ul>
+		</section>
+		<footer class="notes">
+			Attention, désactivation des cookies tiers peut poser problème. (Panier Amazon)
+			Savoir remettre les réglages par défaut
+			
+			Do not track : header http
+		</footer>
+	</div></div>
+	
+	<div class="slide" id="extensions"><div>
+		<section>
+			<header>
+				<h2>Modules complèmentaires</h2>
+			</header>
+			<ul>
+				<li>Ghostery (<strong>/!\ Non Libre /!\</strong>)</li>
+				<li>Adblock Plus</li>
+				<li>HttpsEverywhere</li>
+			</ul>
+		</section>
+		<footer class="notes">
+			Outils automatiques : pas de no script etc.
+		</footer>
+	</div></div>
+	
+	<div class="slide" id="ghostery"><div>
+		<section>
+			<header>
+				<h2>Ghostery</h2>
+			</header>
+			<ul>
+				<li>Détecte les "web-bug" dans les pages visités</li>
+				<li>Permet leur blocage</li>
+				<li>Fourni des informations à leur sujet</li>
+			</ul>
+		</section>
+		<footer class="notes">
+			Non Libre !
+		</footer>
+	</div></div>
+	
+	<div class="slide" id="adblockplus"><div>
+		<section>
+			<header>
+				<h2>Adblock Plus</h2>
+			</header>
+			<ul>
+				<li>Bloqueur de publicité</li>
+				<li>Paramètrable pour bloquer n'importe quel élément d'une page web.</li>
+				<li>Un no-script simplifié</li>
+			</ul>
+		</section>
+		<footer class="notes">
+		</footer>
+	</div></div>
+	
+	<div class="slide shout" id="maintenant"><div>
+		<section>
+			<header>
+				<h2>Et maintenant ?</h2>
+			</header>
+		</section>
+		<footer class="notes">
+			Démo !
+		</footer>
+	</div></div>
+	
+	<div class="slide" id="identity-web"><div>
+		<section>
+			<header>
+				<h2>Votre identifiant sur le web</h2>
+			</header>
+			<ul>
+				<li>Adresse <acronym title="Internet Protocol">IP</acronym>
+					<ul>
+						<li>IPv4 : 208.118.235.131</li>
+						<li>IPv6 : 2001:0db8:85a3:0042:0000:8a2e:0370:7334</li>
+					</ul>
+				</li>
+				<li>User Agent</li>
+				<p><code>Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:16.0) Gecko/20100101 Firefox/16.0</code></p>				
+			</ul>
+		</section>
+		<footer class="notes">
+		</footer>
+	</div></div>
+	
+	<div class="slide" id="panopticlick"><div>
+		<section>
+			<header>
+				<h2>Panopticlick</h2>
+			</header>
+			<ul>
+				<li>Par l'Electronic Frontier Foundation</li>
+				<li>Votre navigateur est-il unique ?</li>
+				<li>User Agent, fuseau horaire, plugins installés, cookie activé, polices disponibles, taille de l'écran...</li>
+				<li>https://panopticlick.eff.org/</li>				
+			</ul>
+		</section>
+		<footer class="notes">
+		</footer>
+	</div></div>
+	
+	<div class="slide" id="useragentswitcher"><div>
+		<section>
+			<header>
+				<h2>User Agent Switcher</h2>
+			</header>
+			<ul>
+				<li>Changer de user-agent en un clic</li>
+				<li>Anonymisation</li>
+				<li>Aucun effet direct sur le tracking avec des cookies</li>
+			</ul>
+		</section>
+		<footer class="notes">
+			Démo sur la page de DuckDuckGo
+		</footer>
+	</div></div>
+	
+	<div class="slide shout" id="questions"><div>
+		<section>
+			<header>
+				<h2>Des questions ?</h2>
+			</header>
+		</section>
+		<footer class="notes">
+		</footer>
+	</div></div>
+	
+	<div class="slide" id="credits"><div>
+		<section>
+			<header>
+				<h2>Crédits</h2>
+			</header>
+			<ul>
+				<li>Présentation sous CC-BY <img src="pictures/cc-by.png" alt="CC-BY" /><br />
+				<a href="https://github.com/Flaburgan/presentations-mozilla">https://github.com/Flaburgan/presentations-mozilla</a></li>
+				<li><a href="http://github.com/pepelsbey/shower">Template HTML5</a> par <a href="mailto:pepelsbey@gmail.com">Vadim Makeev</a>, Opera Software</li>
+				<li>Mozilla styling by Chris Heilmann, Mozilla</li>
+				<li>Logo Collusion sur les <a href="http://www.mozilla.org/en-US/collusion/">Mozilla Labs</a></li>
+				<li>Cookie par Bob Smith sur <a href="http://commons.wikimedia.org/wiki/File:Choco_chip_cookie.png">Wikimedia</a></li>
+				<li>Bouton "Like" par Sean MacEntee sur <a href="http://www.flickr.com/photos/smemon/5684115572/">flickr</a></li>
+			</ul>
+		</section>
+		<footer class="notes">
+			Démo !
+		</footer>
+	</div></div>
+	
+	<div class="progress"><div></div></div>
+	<script src="scripts/script-note.js"></script>
+	<!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+</body>
+</html>
