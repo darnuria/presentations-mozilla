@@ -12,13 +12,14 @@ h1 img {
 
 h2 {
   margin-top: 0px;
-  margin-bottom: 42px;
+  margin-bottom: 30px;
   font-size: medium;
   font-style: italic;
 }
 
 table {
   border-collapse: collapse;
+  margin-top: 25px;
 }
 
 td {
@@ -27,3 +28,7 @@ td {
   border-left: 0px;
   border-right: 0px;
 }
+
+a { color: black; }
+a:visited { color: #440044; }
+a:hover { color: #888888; }
