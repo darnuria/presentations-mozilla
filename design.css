@@ -19,7 +19,7 @@ h2 {
 
 table {
   border-collapse: collapse;
-  margin-top: 25px;
+  margin: 25px auto;
 }
 
 td {
